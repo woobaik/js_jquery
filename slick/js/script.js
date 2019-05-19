@@ -1,5 +1,7 @@
-$(document).ready(function() {
+$(document).ready(function(){
     $('.slides').slick({
-        infinite: true
-    })
-})
+        dots: true    
+    }
+        
+    );
+});
