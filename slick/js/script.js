@@ -1,6 +1,8 @@
 $(document).ready(function(){
     $('.slides').slick({
-        dots: true    
+        dots: true,
+        waitForAnimate: true,
+        infinite: true
     }
         
     );
